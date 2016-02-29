@@ -10,7 +10,7 @@
 
 @interface ShowVC ()
 @property(nonatomic,weak) IBOutlet UILabel *showTitleLabel;
-@property(nonatomic) NSString *showTitle;
+@property(nonatomic) Fruit *fruit;
 @end
 
 @implementation ShowVC
@@ -25,10 +25,10 @@
 }
 
 - (void)setUIWithDataSource{
-    self.showTitleLabel.text = self.showTitle;
+    self.showTitleLabel.text = self.fruit.name;
 }
-- (void)loadDataSource:(NSString *)title {
-    self.showTitle = title;
+- (void)loadDataSource:(Fruit *)fruit {
+    self.fruit = fruit;
 }
 
 @end

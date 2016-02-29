@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2C4CA31C848BCA002E6FC5 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C4CA21C848BCA002E6FC5 /* Fruit.m */; };
 		1CF9C55A1C8431E900A2494F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9C5591C8431E900A2494F /* main.m */; };
 		1CF9C55D1C8431E900A2494F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9C55C1C8431E900A2494F /* AppDelegate.m */; };
 		1CF9C5601C8431E900A2494F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9C55F1C8431E900A2494F /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C2C4CA11C848BCA002E6FC5 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		1C2C4CA21C848BCA002E6FC5 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
 		1CF9C5551C8431E900A2494F /* DemoAppflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF9C5591C8431E900A2494F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CF9C55B1C8431E900A2494F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				1CF9C55F1C8431E900A2494F /* ViewController.m */,
 				1CF9C56F1C84325C00A2494F /* ShowVC.h */,
 				1CF9C5701C84325C00A2494F /* ShowVC.m */,
+				1C2C4CA11C848BCA002E6FC5 /* Fruit.h */,
+				1C2C4CA21C848BCA002E6FC5 /* Fruit.m */,
 				1CF9C5611C8431E900A2494F /* Main.storyboard */,
 				1CF9C5641C8431E900A2494F /* Assets.xcassets */,
 				1CF9C5661C8431E900A2494F /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2C4CA31C848BCA002E6FC5 /* Fruit.m in Sources */,
 				1CF9C5601C8431E900A2494F /* ViewController.m in Sources */,
 				1CF9C5711C84325C00A2494F /* ShowVC.m in Sources */,
 				1CF9C55D1C8431E900A2494F /* AppDelegate.m in Sources */,
@@ -306,6 +312,7 @@
 				1CF9C56E1C8431E900A2494F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

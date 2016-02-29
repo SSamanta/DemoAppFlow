@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ShowVC.h"
+#import "Fruit.h"
 @interface ViewController ()
 
 @end
@@ -24,7 +25,9 @@
 
 -(IBAction)showMeButtonTapped:(id)sender {
     ShowVC *showVc = [self.storyboard instantiateViewControllerWithIdentifier:@"ShowVC"];
-    [showVc loadDataSource:@"Apple"];
+    Fruit *fruit = [[Fruit alloc] init];
+    fruit.name = @"Apple";
+    [showVc loadDataSource:fruit];
     [self.navigationController pushViewController:showVc animated:YES];
 }
 @end
